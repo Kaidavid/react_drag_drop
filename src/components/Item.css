@@ -1,0 +1,60 @@
+
+.card_ {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 4px;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 0px lightslategray;
+    text-align: center;
+}
+
+.title {
+    margin: 0 0 5px 25px;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.boxes {
+    box-shadow: 0px 5px 5px 0px gainsboro;
+    text-align: center;
+    height: 150px;  
+    border-radius: 10px;
+    font-weight: light;
+
+}
+
+.line {
+    height: 4px;
+    flex: 0;
+    background: black;
+    margin-top: 100px;
+}
+
+.inserted {
+    font-weight: bold;
+    margin-top: 35px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.my_button {
+    border-radius: 8px;
+}
+
+.my_button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.my_input {
+    border-color: gainsboro;
+    margin-left: 15px;
+    background-color: white;
+    
+}
+
+input[type=text]:focus{
+    outline: 2px solid lightslategray;
+  }
